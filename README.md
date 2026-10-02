@@ -9,14 +9,7 @@ Sentinel Detect is a Python-based defensive security tool that analyzes SSH auth
 
 Built for cybersecurity learning, security monitoring, SOC practice, and authorized defensive analysis.
 <img width="1920" height="1080" alt="Screenshot from 2026-10-02 12-59-58" src="https://github.com/user-attachments/assets/e9e1fab7-b049-422d-85fa-669fd6920741" />
-command:
-python sentinel.py scan /var/log/auth.log /var/log/nginx/access.log   # log type is auto-detected
-python sentinel.py scan auth.log --format html -o report.html         # visual report
-python sentinel.py scan auth.log --format json                        # for other tools
-python sentinel.py scan auth.log --block                              # suggest firewall rules
-python sentinel.py scan auth.log --allow 1.2.3.4,5.6.7.8              # ignore your own IPs
-python sentinel.py follow /var/log/auth.log                           # live monitoring
-python sentinel.py rules                                              # detections + ATT&CK coverage
+
 ---
 
  ##🚀 Features
