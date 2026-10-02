@@ -11,10 +11,11 @@ Sentinel Detect is a Python-based defensive security tool that analyzes SSH auth
 > **Attack → Understand → Detect → Defend**
 
 Built for cybersecurity learning, security monitoring, SOC practice, and authorized defensive analysis.
+<img width="1920" height="1080" alt="Screenshot from 2026-10-02 12-59-58" src="https://github.com/user-attachments/assets/e9e1fab7-b049-422d-85fa-669fd6920741" />
 
 ---
 
- 🚀 Features
+ ##🚀 Features
 
 - 🔐 SSH authentication log analysis
 - 🌐 Nginx/Apache web access-log analysis
@@ -87,7 +88,7 @@ Security Investigation
 | WEB-004 | Offensive Tool User-Agent              | Low      | T1595.002             |
 | WEB-005 | XSS Indicators                         | Medium   | T1190                 |
 | WEB-006 | Command Injection / Webshell Probe     | High     | T1190 / T1059         |
-<img width="1920" height="1080" alt="Screenshot from 2026-10-02 12-59-58" src="https://github.com/user-attachments/assets/cfe71a50-4f0c-4917-af49-d98cd0e203b0" />
+
 
 
 Requirements
